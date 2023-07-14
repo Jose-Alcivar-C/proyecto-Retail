@@ -1,0 +1,9 @@
+path: .
+train: working/dataset/out/images/test
+val: working/dataset/out/images/val
+test: working/dataset/out/images/train
+
+nc: 10
+
+names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+# names: ['优乐美红豆奶茶', '农夫山泉矿泉水', '可口可乐', '芬达橙味', '雪碧', '王老吉']

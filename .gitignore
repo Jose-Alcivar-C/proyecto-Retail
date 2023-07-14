@@ -1,7 +1,9 @@
 #----------ignorar estas carpetas----------
 
 #carpeta del dataset (15GB)
-/dataset
+input/dataset
+
+working/dataset
 
 #ambiente virtual
 /venv
