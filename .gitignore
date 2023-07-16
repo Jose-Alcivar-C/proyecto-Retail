@@ -1,9 +1,17 @@
 #----------ignorar estas carpetas----------
 
 #carpeta del dataset (15GB)
-input/dataset
+/dataset
 
-working/dataset
+#carpeta del dataset de lo que se va a utilizar
+/output
 
 #ambiente virtual
 /venv
+
+#ejecuciones de YOLO
+/runs
+
+#modelos de entrenamiento
+*.pt
+
