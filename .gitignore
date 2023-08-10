@@ -9,9 +9,6 @@
 #ambiente virtual
 /venv
 
-#ejecuciones de YOLO
-/runs
-
 #modelos de entrenamiento
 *.pt
 
