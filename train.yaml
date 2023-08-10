@@ -1,8 +1,8 @@
-train: ../output/train/images
-val: ../output/val/images
-test: ../output/test/images
+train: ./output/train/images
+val: ./output/val/images
+test: ./output/test/images
 
-nc: 18
+nc: 7
 
-names: ['10', '11', '74', '75', '77', '78', '79', '96', '119', '125', '126', '127', '128', '133', '140', '141', '169', '170']
+names: ['75', '78', '79', '125', '127', '128', '140']
 # names: ['优乐美红豆奶茶', '农夫山泉矿泉水', '可口可乐', '芬达橙味', '雪碧', '王老吉']

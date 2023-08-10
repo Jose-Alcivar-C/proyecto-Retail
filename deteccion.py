@@ -4,7 +4,7 @@ import cv2
 from ultralytics import YOLO
 
 #Cargar modelo entrenado
-modelo_entrenado = "./runs/detect/yolov8n_test_01/weights/best.pt"
+modelo_entrenado = "./runs/yolov8x_test_05/weights/best.pt"
 
 model = YOLO(modelo_entrenado)
 
