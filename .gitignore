@@ -3,8 +3,7 @@
 #carpeta del dataset (15GB)
 /dataset
 
-#carpeta del dataset de lo que se va a utilizar
-/output
+/dataset_original
 
 #ambiente virtual
 /venv
