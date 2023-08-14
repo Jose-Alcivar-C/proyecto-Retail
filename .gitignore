@@ -12,3 +12,7 @@
 #modelos de entrenamiento
 *.pt
 
+/__pycache__
+
+/flagged
+
