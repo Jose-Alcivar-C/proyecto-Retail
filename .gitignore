@@ -1,9 +1,15 @@
 #----------ignorar estas carpetas----------
 
-#carpeta del dataset (15GB)
+#carpeta del dataset retail (15GB)
 /dataset
 
-/dataset_original
+#dataset con productos extraidos del dataset retail
+/dataset_extraido
+
+#carpetas de imagenes de testeo
+/test_images
+/productos_vitrina
+
 
 #ambiente virtual
 /venv
