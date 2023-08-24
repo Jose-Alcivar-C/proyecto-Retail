@@ -6,8 +6,9 @@ from ultralytics import YOLO
 
 #Cargar modelo entrenado
 modelo_entrenado_propio = "./modelos_finales/yolov8x_propios/weights/best.pt"
+modelo_entrenado_retail = "./modelos_finales/yolov8x_retail/weights/last.pt"
 
-model = YOLO(modelo_entrenado_propio)
+model = YOLO(modelo_entrenado_retail)
 
 #Definir funcion que ejecuta la interfaz definida (en este caso es solo una interfaz, pero pueden ser algunas)
 #La interfaz solo recibe una entrada (La imagen ingresada en el cargador de path de imagenes), por lo
