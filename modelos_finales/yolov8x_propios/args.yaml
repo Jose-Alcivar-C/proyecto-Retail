@@ -1,8 +1,8 @@
 task: detect
 mode: train
 model: yolov8x.pt
-data: /content/drive/MyDrive/Proyecto_IA/dataset_retail/train.yaml
-epochs: 40
+data: /content/drive/MyDrive/Proyecto_IA/dataset_propio/data.yaml
+epochs: 200
 patience: 50
 batch: 16
 imgsz: 640
@@ -12,7 +12,7 @@ cache: false
 device: null
 workers: 8
 project: null
-name: /content/drive/MyDrive/Proyecto_IA/resultados_retail/yolov8x_test_new_03
+name: /content/drive/MyDrive/Proyecto_IA/resultados_propios/yolov8x_test_01
 exist_ok: false
 pretrained: true
 optimizer: SGD
@@ -94,4 +94,4 @@ mixup: 0.0
 copy_paste: 0.0
 cfg: null
 tracker: botsort.yaml
-save_dir: /content/drive/MyDrive/Proyecto_IA/resultados_retail/yolov8x_test_new_03
+save_dir: /content/drive/MyDrive/Proyecto_IA/resultados_propios/yolov8x_test_01
